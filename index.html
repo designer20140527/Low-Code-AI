@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Low-Code AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&family=Space+Grotesk:wght@400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <style>
+        /* 添加背景渐变装饰 */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at center, rgba(59, 50, 255, 0.03) 0%, transparent 50%);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Low-Code AI Logo">
+                <span class="logo-text">Low-Code AI</span>
+            </div>
+            <button class="menu-button">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </button>
+            <div class="nav-links">
+                <a href="#hero" class="active">Home</a>
+                <a href="#features">About</a>
+                <a href="#tokenomics">Tokenomics</a>
+                <a href="#roadmap">Roadmap</a>
+                <button class="primary-btn">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Build, Trade, and Scale AI Models – All with Low-Code</h1>
+                <p>Low-Code AI is revolutionizing the world of artificial intelligence by making it accessible to everyone, regardless of technical expertise. With our intuitive platform, you can effortlessly create, train, deploy, and trade AI models using a simple drag-and-drop interface.</p>
+                <p>Whether you're a business, a developer, or a data enthusiast, Low-Code AI opens up new possibilities for innovation, collaboration, and growth in the AI space. </p>
+
+                <div class="social-buttons">
+                    <a href="https://x.com/LowCodeAI_" target="_blank" class="social-btn twitter-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                        Twitter
+                    </a>
+                    <a href="https://t.me/Low_Code_AI" target="_blank" class="social-btn telegram-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/>
+                        </svg>
+                        Telegram
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/image6.png" alt="Low-Code AI Platform Front" class="hero-illustration front">
+                <img src="assets/images/image7.png" alt="Low-Code AI Platform Back" class="hero-illustration back">
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-header">
+                <h2>Unprecedented - Effortless AI operation</h2>
+            </div>
+            <div class="features-grid">
+                <button class="carousel-button prev">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                    </svg>
+                </button>
+                <div class="carousel-container">
+                    <div class="feature-card">
+                        <img src="assets/images/image2.png" alt="Low-Code AI Creation">
+                        <div class="feature-card-content">
+                            <h3>Low-Code AI Creation</h3>
+                            <p>Low-Code AI simplifies the AI development process with a user-friendly graphical interface. Users can easily build AI models by dragging and dropping components, selecting data sources, setting training goals, and defining output methods. No coding knowledge is required, making AI accessible to everyone, from beginners to experts.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="assets/images/image3.png" alt="AI Model Training & Deployment">
+                        <div class="feature-card-content">
+                            <h3>AI Model Training & Deployment</h3>
+                            <p>Low-Code AI offers decentralized model management, where all AI model versions are stored securely on the blockchain. Users can participate in decentralized training by contributing data or computational resources. Once training is complete, models are deployed using Web3 protocols, ensuring decentralized delivery and reducing risks associated with centralized infrastructure.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="assets/images/image4.png" alt="Decentralized AI Model Marketplace">
+                        <div class="feature-card-content">
+                            <h3>Decentralized AI Model Marketplace</h3>
+                            <p>The platform features a decentralized marketplace where users can list, buy, or rent AI models. Every transaction is securely recorded on the blockchain, ensuring transparency and security. Users can access a wide range of pre-trained models or share their own, creating a dynamic, peer-driven ecosystem.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="assets/images/image5.png" alt="Incentive & Reward System">
+                        <div class="feature-card-content">
+                            <h3>Incentive & Reward System</h3>
+                            <p>Low-Code AI integrates a robust incentive mechanism to encourage active participation. Users can earn $LCAI tokens by contributing data, computational resources, or AI models to the platform. Token rewards are also distributed for successful model trades in the marketplace, incentivizing creators to list and share their models. This decentralized incentive structure ensures that every contribution is valued, promoting a vibrant, dynamic ecosystem where both developers and data providers are rewarded for their engagement.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-button next">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="tokenomics" id="tokenomics">
+        <div class="container">
+            <div class="tokenomics-header">
+                <h2>Tokenomics</h2>
+                <p>The $LCAI token is the heart of the Low-Code AI ecosystem, driving the platform's functionality and incentives. With a fixed total supply, $LCAI fuels transactions, governance, and rewards within the platform, ensuring a sustainable and decentralized economy.</p>
+                
+                <div class="token-info-basic">
+                    <div class="info-item">
+                        <span class="label">Token Name</span>
+                        <span class="value">$LCAI</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Total Supply</span>
+                        <span class="value">1,000,000,000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tokenomics-cards">
+                <div class="info-card utility">
+                    <h3>Utility and Purpose</h3>
+                    <div class="utility-list">
+                        <div class="utility-item">
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <defs>
+                                    <linearGradient id="iconGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#ff9a28" />
+                                        <stop offset="100%" style="stop-color:#3b32ff" />
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#iconGrad1)" d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                            </svg>
+                            <div class="content">
+                                <h4>Platform Access</h4>
+                                <p>$LCAI is used to access various platform services, including AI model creation, training and deployment, and can also be used to trade AI models on the platform, ensuring that every interaction within the ecosystem is token-driven.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="utility-item">
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path fill="url(#iconGrad1)" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09V20h-2.67v-1.93c-1.71-.36-3.16-1.46-3.27-3.4h1.96c.1 1.05.82 1.87 2.65 1.87 1.96 0 2.4-.98 2.4-1.59 0-.83-.44-1.61-2.67-2.14-2.48-.6-4.18-1.62-4.18-3.67 0-1.72 1.39-2.84 3.11-3.21V4h2.67v1.95c1.86.45 2.79 1.86 2.85 3.39H14.3c-.05-1.11-.64-1.87-2.22-1.87-1.5 0-2.4.68-2.4 1.64 0 .84.65 1.39 2.67 1.91s4.18 1.39 4.18 3.91c-.01 1.83-1.38 2.83-3.12 3.16z"/>
+                            </svg>
+                            <div class="content">
+                                <h4>Incentives and rewards</h4>
+                                <p>Users can earn $LCAI tokens by contributing data, computing resources or AI models. This incentivizes users to co-create the platform and innovate.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="utility-item">
+                            <svg class="icon" viewBox="0 0 24 24">
+                                <path fill="url(#iconGrad1)" d="M18 13h-.68l-2 2h1.91L19 17H5l1.78-2h2.05l-2-2H6l-3 3v4c0 1.1.89 2 1.99 2H19c1.1 0 2-.89 2-2v-4l-3-3zm-1-5.05l-4.95 4.95-3.54-3.54 4.95-4.95L17 7.95zm-4.24-5.66L6.39 8.66c-.39.39-.39 1.02 0 1.41l4.95 4.95c.39.39 1.02.39 1.41 0l6.36-6.36c.39-.39.39-1.02 0-1.41L14.16 2.3c-.38-.4-1.01-.4-1.4-.01z"/>
+                            </svg>
+                            <div class="content">
+                                <h4>Decentralized governance</h4>
+                                <p>Users can use $LCAI to vote on key platform decisions, ensuring that Low-Code AI is always community-driven and decentralized.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-card allocation">
+                    <h3>Allocation</h3>
+                    <div class="allocation-list">
+                        <div class="allocation-item">
+                            <span class="label">Community</span>
+                            <div class="allocation-bar-container">
+                                <div class="allocation-bar community"></div>
+                            </div>
+                            <span class="value">5%</span>
+                        </div>
+                        <div class="allocation-item">
+                            <span class="label">Liquidity</span>
+                            <div class="allocation-bar-container">
+                                <div class="allocation-bar liquidity"></div>
+                            </div>
+                            <span class="value">70%</span>
+                        </div>
+                        <div class="allocation-item">
+                            <span class="label">Ecosystem Incentive</span>
+                            <div class="allocation-bar-container">
+                                <div class="allocation-bar ecosystem"></div>
+                            </div>
+                            <span class="value">15%</span>
+                        </div>
+                        <div class="allocation-item">
+                            <span class="label">Team & Advisors</span>
+                            <div class="allocation-bar-container">
+                                <div class="allocation-bar team"></div>
+                            </div>
+                            <span class="value">5%</span>
+                        </div>
+                        <div class="allocation-item">
+                            <span class="label">Reserve Fund</span>
+                            <div class="allocation-bar-container">
+                                <div class="allocation-bar reserve"></div>
+                            </div>
+                            <span class="value">5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights">
+        <div class="container">
+            <div class="highlights-header">
+                <h2>Highlight - Why does Low-Code AI stand out?</h2>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="icon-wrapper">
+                        <svg class="highlight-icon" viewBox="0 0 24 24">
+                            <defs>
+                                <linearGradient id="highlightGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ff9a28" />
+                                    <stop offset="100%" style="stop-color:#3b32ff" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#highlightGrad1)" d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H3V4h18v12z"/>
+                            <path fill="url(#highlightGrad1)" d="M11.12 12.22c.28-.35.47-.78.54-1.22h1.34v1h2v-1h1v-2h-1V7.5h-2v1.34c-.07-.44-.26-.87-.54-1.22L14.34 6 13 4.66l-1.62 1.62c-.35-.28-.78-.47-1.22-.54V4h-2v1.74c-.44.07-.87.26-1.22.54L5.32 4.66 4 6l1.62 1.62c-.28.35-.47.78-.54 1.22H4v2h1.74c.07.44.26.87.54 1.22L4.66 13 6 14.34l1.62-1.62c.35.28.78.47 1.22.54v1.74h2v-1.74c.44-.07.87-.26 1.22-.54l1.62 1.62L15 13l-1.62-1.62zM10 11c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Low Barrier to Entry</h3>
+                    <p>With an intuitive graphical interface, Low-Code AI makes it easy for anyone – no coding experience required – to build powerful AI applications. This lowers the entry barriers for AI development, allowing a wider range of users to tap into the potential of AI.</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="icon-wrapper">
+                        <svg class="highlight-icon" viewBox="0 0 24 24">
+                            <path fill="url(#highlightGrad1)" d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Data Privacy & Decentralization</h3>
+                    <p>All user data and model training processes are securely stored on the blockchain, offering full control and ensuring that data privacy is maintained. With decentralized operations, users can trust that their data remains in their hands, free from centralized control or breaches.</p>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="icon-wrapper">
+                        <svg class="highlight-icon" viewBox="0 0 24 24">
+                            <path fill="url(#highlightGrad1)" d="M19.43 12.98c.04-.32.07-.64.07-.98 0-.34-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.09-.16-.26-.25-.44-.25-.06 0-.12.01-.17.03l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.06-.02-.12-.03-.18-.03-.17 0-.34.09-.43.25l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98 0 .33.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.09.16.26.25.44.25.06 0 .12-.01.17-.03l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.06.02.12.03.18.03.17 0 .34-.09.43-.25l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zm-1.98-1.71c.04.31.05.52.05.73 0 .21-.02.43-.05.73l-.14 1.13.89.7 1.08.84-.7 1.21-1.27-.51-1.04-.42-.9.68c-.43.32-.84.56-1.25.73l-1.06.43-.16 1.13-.2 1.35h-1.4l-.19-1.35-.16-1.13-1.06-.43c-.43-.18-.83-.41-1.23-.71l-.91-.7-1.06.43-1.27.51-.7-1.21 1.08-.84.89-.7-.14-1.13c-.03-.31-.05-.54-.05-.74s.02-.43.05-.73l.14-1.13-.89-.7-1.08-.84.7-1.21 1.27.51 1.04.42.9-.68c.43-.32.84-.56 1.25-.73l1.06-.43.16-1.13.2-1.35h1.39l.19 1.35.16 1.13 1.06.43c.43.18.83.41 1.23.71l.91.7 1.06-.43 1.27-.51.7 1.21-1.07.85-.89.7.14 1.13zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>AI Optimization Tools</h3>
+                    <p>The platform offers built-in, intelligent AI optimization tools that make it easier for users to refine and improve the performance of their models. These tools accelerate model tuning, ensuring better accuracy and efficiency without requiring deep technical expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <div class="roadmap-header">
+                <h2>Roadmap</h2>
+            </div>
+            <div class="roadmap-timeline">
+                <div class="timeline-item">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 1</div>
+                        <h3>Platform Launch & Initial Community Engagement</h3>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Introduce core features, including AI model creation tools, decentralized training, and the initial marketplace for model trading.</li>
+                            <li>Begin building a strong community through social channels, forums, and educational resources to drive platform adoption and engagement.</li>
+                            <li>Launch the $LCAI token and the first version of the Low-Code AI platform.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 2</div>
+                        <h3>Decentralized Training & Marketplace Expansion</h3>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Enable decentralized model training, allowing users to contribute data and computing power to improve AI models.</li>
+                            <li>Expand the AI model marketplace with more user-generated and pre-trained models, providing a wider range of options for users.</li>
+                            <li>Strengthen platform governance, enabling token holders to vote on the direction of platform development and future feature integration.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 3</div>
+                        <h3>Global Ecosystem Growth & Strategic Partnerships</h3>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Scale the platform globally, attracting developers, data providers, and AI enthusiasts from around the world.</li>
+                            <li>Form strategic partnerships with major AI research organizations, data sources, and technology providers to expand the platform's capabilities.</li>
+                            <li>Improve AI optimization tools and introduce new features, making the platform even more powerful and user-friendly.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 4</div>
+                        <h3>Full Decentralization & Continuous Innovation</h3>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Achieve full decentralization, ensuring all platform operations, from model training to governance, are managed by the community.</li>
+                            <li>Expand the ecosystem by integrating additional decentralized features and fostering deeper community collaboration through DAOs.</li>
+                            <li>Continue to innovate with AI tools, ensuring Low-Code AI remains at the forefront of AI development, while maintaining a community-driven approach.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="faq-header">
+                <h2>FAQ</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is Low-Code AI?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Low-Code AI is a decentralized Web3 platform that allows anyone – regardless of coding experience – to easily create, train, deploy, and trade AI models using a simple drag-and-drop interface. It leverages blockchain technology to ensure transparency, security, and data privacy throughout the entire process.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I build AI models on Low-Code AI?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can build AI models using the platform's graphical interface. Simply drag and drop components, select data sources, set your training goals, and define output methods. If more complex models are required, the platform's AI assistant will guide you in natural language, helping you achieve the desired outcome.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How does the AI model marketplace work?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The AI model marketplace is a decentralized space where users can list, buy, or rent AI models. All transactions and model listings are securely stored on the blockchain. Users can access a variety of pre-trained models or offer their own, creating a dynamic, peer-driven ecosystem for model exchange.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is the role of $LCAI tokens on the platform?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>$LCAI tokens are used for platform services, including model creation, training, and deployment. Additionally, users can earn $LCAI tokens by contributing data, models, or computational power. Token holders can also participate in governance, voting on key platform decisions and helping shape its future.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How does the platform ensure data privacy?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All data used in the creation, training, and deployment of AI models is securely stored on the blockchain. This decentralized approach ensures that users have full control over their data and that privacy is maintained throughout the entire process.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is the role of the community in Low-Code AI?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The community plays a crucial role in the platform's development. Through decentralized governance (DAO), $LCAI token holders can vote on platform decisions, suggest improvements, and contribute to the overall direction of the project. This ensures that the platform evolves in line with the collective interests of its users.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I participate in model training if I don't have any AI expertise?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! Even if you don't have any AI expertise, you can contribute by providing data or computational resources for training. The platform's low-code tools and AI assistant make it easy for anyone to participate in AI model development and optimization.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What makes Low-Code AI different from traditional AI platforms?</span>
+                        <svg class="arrow-icon" viewBox="0 0 24 24">
+                            <path d="M7 10l5 5 5-5z"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Unlike traditional AI platforms, Low-Code AI eliminates the need for coding, making AI development accessible to everyone. It also leverages blockchain technology for decentralized model training, data privacy, and secure transactions, offering a transparent, community-driven ecosystem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="assets/images/logo.png" alt="Low-Code AI Logo">
+                        <span class="logo-text">Low-Code AI</span>
+                    </div>
+                    <p>Revolutionizing AI development with a decentralized, low-code platform that makes AI accessible to everyone.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">About</a></li>
+                        <li><a href="#tokenomics">Tokenomics</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Low-Code AI. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://x.com/LowCodeAI_" target="_blank" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    <a href="https://t.me/Low_Code_AI" target="_blank" aria-label="Telegram">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .24z"/>
+                        </svg>
+                    </a>
+                    <a href="#" target="_blank" aria-label="DexTools">
+                        <img src="assets/images/dextools.svg" alt="DexTools" class="social-icon">
+                    </a>
+                    <a href="#" target="_blank" aria-label="Dex Screener">
+                        <img src="assets/images/dex-screener-seeklogo.svg" alt="Dex Screener" class="social-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    const carousel = document.querySelector('.carousel-container');
+    const cards = document.querySelectorAll('.feature-card');
+    const prevBtn = document.querySelector('.carousel-button.prev');
+    const nextBtn = document.querySelector('.carousel-button.next');
+
+    let currentIndex = 0;
+    const cardWidth = cards[0].offsetWidth + 24; // 卡片宽度 + gap
+
+    function updateCarousel() {
+        carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (currentIndex < cards.length - 2) {
+            currentIndex++;
+            updateCarousel();
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // 关闭其他所有展开的项
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // 如果当前项未展开，则展开它
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    });
+
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+    </script>
+</body>
+</html> 
