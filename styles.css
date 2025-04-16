@@ -570,11 +570,11 @@ body {
 }
 .allocation-bar.liquidity { 
     background: var(--secondary-color);
-    width: 70%;
+    width: 80%;
 }
 .allocation-bar.ecosystem { 
     background: #00c4a7;
-    width: 15%;
+    width: 10%;
 }
 .allocation-bar.team { 
     background: #7c5cff;
