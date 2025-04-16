@@ -580,10 +580,6 @@ body {
     background: #7c5cff;
     width: 5%;
 }
-.allocation-bar.reserve { 
-    background: #ff5c8d;
-    width: 5%;
-}
 
 .dot.community { background: var(--primary-color); }
 .dot.liquidity { background: var(--secondary-color); }
